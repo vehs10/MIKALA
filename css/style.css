@@ -1,0 +1,926 @@
+img {
+    max-width: 100%;
+}
+
+
+/**navegacion**/
+
+.site-header {
+    background-color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    font-family: 'Baskervville', serif;
+    color: #3D3C42;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.navbar a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
+
+.logo {
+    margin: 0px 20px;
+}
+
+@media (min-width:1024px) {
+    .navbar a {
+        font-size: 20px;
+    }
+}
+
+
+/**Portada**/
+
+.carousel-texto {
+    text-align: left;
+    margin-bottom: 4%;
+    top: 30%;
+}
+
+.carousel-texto p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height: 24px;
+    color: #3D3C42;
+    margin-bottom: -10px;
+}
+
+.carousel-texto h1 {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    color: #3D3C42;
+    margin: 0%;
+}
+
+.carousel-texto-right {
+    text-align: right;
+    margin-bottom: 4%;
+    top: 30%;
+}
+
+.carousel-texto-right p {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height: 24px;
+    color: #3D3C42;
+    margin-bottom: -10px;
+    margin-right: 20%;
+}
+
+.carousel-texto-right h1 {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    color: #3D3C42;
+    margin: 0%;
+}
+
+@media (min-width:1024px) {
+    .carousel-texto {
+        top: 50%;
+    }
+    .carousel-texto p {
+        font-size: 24px;
+        line-height: 29.26px;
+    }
+    .carousel-texto h1 {
+        font-size: 80px;
+    }
+    .carousel-texto-right {
+        top: 50%;
+    }
+    .carousel-texto-right p {
+        font-size: 24px;
+        line-height: 29.26px;
+        margin-bottom: -10px;
+        margin-right: 24%;
+    }
+    .carousel-texto-right h1 {
+        font-size: 80px;
+        margin: 0%;
+    }
+}
+
+.portada {
+    padding-top: 25%;
+    background-position: center center;
+    background-size: cover;
+    height: 230px;
+    padding-bottom: 50%;
+}
+
+.contenido-portada {
+    padding: 16rem 0.5rem;
+}
+
+.contenido-portada h3 {
+    font-family: 'Cormorant', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 97px;
+    letter-spacing: 0.045em;
+}
+
+.boton {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 10.97px;
+    letter-spacing: 0.41em;
+    width: 150px;
+    height: 21px;
+    font-size: 9px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+@media (min-width:1024px) {
+    .portada {
+        height: 820px;
+        width: 100%;
+        padding-top: 8%;
+    }
+    .contenido-portada {
+        padding: 35rem 1rem;
+    }
+    .contenido-portada h3 {
+        font-size: 80px;
+    }
+    .boton {
+        font-size: 24px;
+        padding: 1rem 4rem;
+        line-height: 29px;
+        width: 408px;
+        height: 61px;
+    }
+}
+
+
+/**nueva Coleccion**/
+
+.nueva-coleccion {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.nueva-coleccion img {
+    width: 100%;
+    height: 100%;
+}
+
+.nueva-coleccion h3 {
+    margin-top: 15px;
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.045em;
+    font-size: 16px;
+    /**margin: 15px 0px;**/
+    font-family: 'Cormorant', serif;
+    margin-bottom: 2px;
+    padding-bottom: 0%;
+}
+
+.nueva-coleccion a {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    line-height: 10px;
+    letter-spacing: 0.41em;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.nueva-coleccion a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
+
+@media (min-width: 1024px) {
+    .nueva-coleccion {
+        padding-top: 15px;
+        padding-bottom: 75px;
+    }
+    .nueva-coleccion h3 {
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .nueva-coleccion a {
+        font-size: 15px;
+        padding-bottom: 15px;
+        line-height: 18px;
+        margin-bottom: 35px;
+    }
+}
+
+
+/*Ver-coleccion*/
+
+.Ver-coleccion {
+    margin-top: 20px
+}
+
+@media (min-width: 1024px) {
+    .Ver-coleccion {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+        padding-top: 15px;
+        padding-bottom: 75px;
+    }
+}
+
+.coleccion {
+    margin: 25px 0px;
+}
+
+.coleccion h3,
+.SomosMikala h3 {
+    font-family: 'Cormorant', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.045em;
+    margin: 15px 30px;
+    font-family: 'Cormorant', serif;
+    margin-bottom: 2px;
+    padding-bottom: 0%;
+}
+
+.coleccion a,
+.SomosMikala a {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    line-height: 10px;
+    letter-spacing: 0.41em;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.coleccion a:hover,
+a:focus,
+.SomosMikala a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
+
+@media (min-width: 1024px) {
+    .coleccion h3,
+    .SomosMikala h3 {
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .coleccion a,
+    .SomosMikala a {
+        font-size: 15px;
+        padding-bottom: 15px;
+        line-height: 18px;
+        margin-bottom: 35px;
+    }
+}
+
+
+/*FOOTER*/
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin-top: 10%;
+    padding-bottom: 0.1rem;
+    position: relative;
+    /**top: 80px;**/
+}
+
+.footer .footer-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 6px;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    text-decoration: none;
+}
+
+.footer-icons {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.footer-icons .social-icons {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0%;
+}
+
+.footer-icons .social-icons li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.footer-icons .social-icons i {
+    color: #C4C4C4;
+    width: 23.89px;
+    height: 24px;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer-icons .social-icons i:hover {
+    transform: scale(1.3);
+    transition: .4s ease-in-out;
+    color: #3d3d3d;
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        padding-bottom: 5px;
+    }
+    .footer .footer-links a {
+        top: 10%;
+        bottom: 5%;
+    }
+    .footer-icons {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .footer-icons .social-icons {
+        margin-top: 8rem;
+        /** margin-bottom: -4rem;**/
+    }
+    .footer-icons .social-icons i {
+        font-size: 38.71px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer-responsive {
+        display: none;
+    }
+}
+
+
+/*NOSOTROS*/
+
+.portada-nosotros {
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.nosotros-grid {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.titulo-solo-responsive {
+    display: none;
+}
+
+.nosotros-grid .nosotros {
+    display: flex;
+    align-items: center;
+}
+
+.nosotros-grid .nosotros h1 {
+    font-family: 'Cormorant', serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+    color: black;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.nosotros p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nosotros h3 {
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-solo-responsive {
+    display: none;
+}
+
+@media (min-width:1024px) {
+    .nosotros h1 {
+        display: none;
+    }
+    .titulo-solo-responsive {
+        display: inherit;
+        font-family: 'Cormorant', serif;
+        font-size: 32px;
+        line-height: 39px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.045em;
+        margin-bottom: 2%;
+    }
+    .nosotros p {
+        font-size: 16px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .nosotros h3 {
+        font-size: 16px;
+        font-style: normal;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .p-solo-responsive {
+        display: inherit;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.045em;
+        color: #000000;
+        margin-top: 6%;
+    }
+}
+
+
+/*somos MIKALA*/
+
+.SomosMikala img {
+    width: 100%;
+}
+
+@media (min-width:1024px) {
+    .SomosMikala img {
+        height: 872px;
+    }
+}
+
+
+/*AYUDA*/
+
+.Titulo-ayuda h3 {
+    padding-top: 8rem;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+}
+
+.Ayuda div {
+    margin: 50px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Ayuda div button {
+    background-color: #D4A48D;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 0px;
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 0.41em;
+    font-size: 14px;
+}
+
+.Ayuda div button a {
+    color: white;
+    text-decoration: none;
+}
+
+.p-envio {
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+.p-Devoluciones {
+    font-size: 14px;
+}
+
+@media (min-width:1024px) {
+    .Titulo-ayuda h3 {
+        font-size: 32px;
+    }
+    .Ayuda div button {
+        font-size: 24px;
+    }
+    .p-envio {
+        font-size: 16px;
+        margin-top: 5%;
+        text-align: left;
+    }
+    .p-Devoluciones {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+
+/*CONTACTO*/
+
+.portada-contacto {
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.contacto-grid {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.necesitas-contactarnos {
+    display: flex;
+    align-items: center;
+}
+
+.necesitas-contactarnos h1 {
+    font-family: 'Cormorant', serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+    color: black;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.necesitas-contactarnos p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.necesitas-contactarnos .texto-strong {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.necesitas-contactarnos .button-redes {
+    width: 280px;
+    height: 39px;
+    top: 409px;
+    margin-top: 5%;
+    margin-left: 10%;
+    border: 0px #3D3C42;
+    border-radius: 0px;
+    justify-content: center;
+    background-color: #3D3C42;
+    display: flex;
+    align-items: center;
+}
+
+.necesitas-contactarnos .button-redes a i {
+    font-size: 20px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.necesitas-contactarnos a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.39em;
+    color: white;
+    text-align: right
+}
+
+.googlemaps {
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width:1024px) {
+    .contacto-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+    }
+    .necesitas-contactarnos h1 {
+        font-size: 32px;
+        margin-top: 2%;
+    }
+    .necesitas-contactarnos p {
+        font-size: 16px;
+        line-height: 19.5px;
+        margin-top: 10%;
+    }
+    .titulo-solo-responsive {
+        display: inherit;
+        font-family: 'Cormorant', serif;
+        font-size: 32px;
+        line-height: 39px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.045em;
+        margin-bottom: 5%;
+    }
+    .p-solo-responsive {
+        display: inherit;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.045em;
+        color: #000000;
+        margin-top: 6%;
+    }
+}
+
+
+/*Preguntas Frecuentes*/
+
+.Ayuda-Preguntas {
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.Ayuda-Preguntas h3 {
+    font-family: 'Cormorant', serif;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.Ayuda-Preguntas button {
+    font-size: 14px;
+}
+
+.lista-devo {
+    list-style: none;
+    text-align: left;
+}
+
+.Ayuda-Preguntas p {
+    margin-top: 8%;
+    text-align: left;
+    font-size: 12px;
+}
+
+.ul-preguntas {
+    margin-left: 10%;
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+}
+
+@media (min-width:1024px) {
+    .Ayuda-Preguntas h3 {
+        font-size: 32px;
+    }
+    .Ayuda-Preguntas button {
+        font-size: 24px;
+    }
+    .Ayuda-Preguntas p {
+        margin-top: 2%;
+        font-size: 16px;
+    }
+    .ul-preguntas {
+        margin-left: 10%;
+        font-size: 16px;
+    }
+}
+
+
+/*MAYORISTAS*/
+
+.portada-mayoristas {
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.mayoristas-grid {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.mayoristas {
+    /**display:flex;**/
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mayoristas h1 {
+    font-family: 'Cormorant', serif;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+    color: black;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.mayoristas h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mayoristas p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mayoristas .button-redes {
+    width: 280px;
+    height: 39px;
+    top: 409px;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0%;
+    border: 0px #D4A48D;
+    border-radius: 0px;
+    justify-content: center;
+    background-color: #D4A48D;
+    /**display: flex;
+    align-items: center; **/
+    margin-bottom: 10%;
+}
+
+.mayoristas .button-redes a i {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.mayoristas a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.39em;
+    color: white;
+    text-align: right
+}
+
+@media (min-width:1024px) {
+    .mayoristas a {
+        text-align: center;
+    }
+    .mayoristas p {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .mayoristas-grid h1 {
+        display: none;
+    }
+    .mayoristas h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .mayoristas .button-redes {
+        width: 604px;
+        height: 63px;
+        top: 409px;
+        margin-top: 8%;
+        margin-bottom: 10%;
+    }
+    .mayoristas a {
+        font-size: 24px;
+        text-align: center
+    }
+    .mayoristas .button-redes a i {
+        font-size: 32px;
+        margin-right: 30px;
+    }
+}
+
+
+/***GUIA DE COMPRA**/
+
+@media (max-width:624px) {
+    .Guia-Compra-portada img {
+        height: 200px;
+    }
+}
+
+.Guia-article h3 {
+    font-family: 'Cormorant', serif;
+    letter-spacing: 0.045em;
+    font-size: 25px;
+}
+
+.Guia-article {
+    margin-top: 15px;
+}
+
+.Guia-article ul li {
+    list-style: none;
+    margin-top: 20PX;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-right: 10%;
+}
+
+@media (min-width:1024px) {
+    .Guia-compra {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+    }
+    .Guia-article h3 {
+        font-size: 32px;
+    }
+    .Guia-article ul li {
+        font-size: 16px;
+        margin-right: 12%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img-sube img {
+        margin-top: -70px;
+    }
+}
